@@ -42,11 +42,11 @@ iframe#tela {
     width: 265px;
 }
 
-section#redes-sociais {
-    text-align: right;
-}
+
 
 section#redes-sociais img {
+    display: flex;
+    flex-direction: column;
     width: 50px;
     margin: 10px;
     border-radius: 50%;
